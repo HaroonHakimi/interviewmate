@@ -36,7 +36,7 @@ const AddNewInterview = () => {
     const inputPrompt = `
     Job Position: ${jobPosition}, Job Description: ${jobDescription}, Years of Experience: ${jobExperience}.
 
-    Using the provided information (Job Position, Job Description, and Years of Experience), generate 5 relevant interview questions and answers related to the role. Return the result in a JSON format with "question" and "answer" fields, as follows:
+    Using the provided information (Job Position, Job Description, and Years of Experience), generate 5 relevant interview questions and answers related to the role. Return ONLY the result in a JSON format with "question" and "answer" fields, as follows:
 
     [
         {
