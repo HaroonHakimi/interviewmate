@@ -1,5 +1,3 @@
-
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -26,7 +24,13 @@ module.exports = {
       lg: "1200px",
     },
     extend: {
-      
+      backgroundImage: {
+        "custom-svg": "url('/ooorganize.svg')",
+        "stars-svg": "url('/stars3.svg')",
+      },
+      backgroundColor: {
+        "overlay-dark": "rgba(0, 0, 0, 0.8)", // semi-transparent dark overlay
+      },
     },
   },
   plugins: [],
