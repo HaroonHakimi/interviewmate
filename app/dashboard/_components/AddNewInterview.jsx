@@ -107,7 +107,7 @@ const AddNewInterview = () => {
         </h2>
       </div>
       <Dialog open={openDialog}>
-        <DialogContent className="max-w-xl">
+        <DialogContent className="max-w-xl bg-white">
           <DialogHeader>
             <DialogTitle className="text-2xl">
               Tell us more about your job interview
