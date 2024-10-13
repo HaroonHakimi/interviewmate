@@ -20,6 +20,7 @@ const InterviewList = () => {
       .orderBy(desc(InterviewMate.createdAt));
 
     console.log(result);
+
     setInterviews(result);
   };
 
