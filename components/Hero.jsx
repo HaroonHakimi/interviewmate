@@ -93,7 +93,7 @@ const Hero = () => {
           <div className="absolute h-2 w-2 top-1/2 left-full -translate-x-1/2 -translate-y-1/2 bg-white rounded-full"></div>
         </motion.div>
         <div className="container mt-16 flex justify-center flex-col items-center relative text-white">
-          <h1 className="text-8xl md:[168px] md:leading-none font-semibold bg-white tracking-tighter bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">
+          <h1 className="text-[5rem] md:text-8xl  md:leading-none font-semibold bg-white tracking-tighter bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">
             InterviewMate
           </h1>
           <p className="text-md w-3/4 md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
