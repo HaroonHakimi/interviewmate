@@ -31,12 +31,16 @@ const Feedback = ({ params }) => {
   for (const item of feedback) {
     totalFeedback += parseInt(item.rating[0]) / 5
   }
+  totalFeedback = Math.round(totalFeedback * 10) / 10
 
 
-  if (feedback.length) {
-    if (feedback[0].rating > 5) setTextColor("text-green-500");
-    else if (feedback[0].rating < 5) setTextColor("text-red-500");
-  }
+  useEffect(() => {
+    if (feedback.length) {
+      if (feedback[0].rating > 5) setTextColor("text-green-500");
+      else if (feedback[0].rating < 5) setTextColor("text-red-500");
+    }
+  }, [feedback]);
+  
 
   useEffect(() => {
     getFeedback();
